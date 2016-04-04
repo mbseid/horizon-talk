@@ -8,6 +8,7 @@
   "dependencies": {
     "@horizon/client": "0.0.4-0",
     "react": "^0.14.8",
-    "react-native": "^0.22.2"
+    "react-native": "^0.22.2",
+    "react-native-material-kit": "^0.3.0"
   }
 }
