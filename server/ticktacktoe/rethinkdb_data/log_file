@@ -1,0 +1,16 @@
+2016-04-03T17:55:53.733468000 0.518746s notice: Recursively removing directory /Users/mbseid/Dev/horizon-talk/server/ticktacktoe/rethinkdb_data/tmp
+2016-04-03T17:55:53.736565000 0.521846s notice: Initializing directory /Users/mbseid/Dev/horizon-talk/server/ticktacktoe/rethinkdb_data
+2016-04-03T17:55:53.736672000 0.521949s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/mbseid/Dev/horizon-talk/server/ticktacktoe/rethinkdb_data' did not already exist or is empty.)
+2016-04-03T17:55:53.736699000 0.521976s notice: Running rethinkdb 2.0.0-1 (CLANG 4.2 (clang-425.0.28))...
+2016-04-03T17:55:53.749875000 0.535153s notice: Running on Darwin 15.3.0 x86_64
+2016-04-03T17:55:53.749925000 0.535202s notice: Loading data from directory /Users/mbseid/Dev/horizon-talk/server/ticktacktoe/rethinkdb_data
+2016-04-03T17:55:53.871269000 0.656546s info: Cache size is set to 200 MB
+2016-04-03T17:55:53.873878000 0.659155s notice: Listening for intracluster connections on port 58834
+2016-04-03T17:55:53.875327000 0.660604s notice: Listening for client driver connections on port 58835
+2016-04-03T17:55:53.875437000 0.660714s notice: Listening for administrative HTTP connections on port 58836
+2016-04-03T17:55:53.875497000 0.660774s notice: Listening on addresses: 127.0.0.1, ::1
+2016-04-03T17:55:53.875501000 0.660778s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-03T17:55:53.875506000 0.660783s notice: Server ready, "Michaels_MacBook_Pro_local_iek" ceb462a5-907a-485b-aad7-c5ea956e5e38
+2016-04-03T17:55:54.073993000 0.859271s notice: A newer version of the RethinkDB server is available: 2.2.6. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-04-03T17:55:54.647045000 1.432323s notice: Server got SIGINT from pid 1038, uid 501; shutting down...
+2016-04-03T17:55:54.647216000 1.432493s notice: Shutting down client connections...

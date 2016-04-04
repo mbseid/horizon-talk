@@ -1,0 +1,7 @@
+- [ ] npm install -g horizon
+- [ ] hz init ticktacktoe
+- [ ] hz server ticktacktoe --dev
+  - * This starts both Horizon and RethinkDB.
+  - * Make sure to have 2.3-preview installed
+  
+- [ ]
