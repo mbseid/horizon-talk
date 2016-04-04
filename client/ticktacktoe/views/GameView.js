@@ -3,7 +3,8 @@ import React, {
   Text,
   View,
   Dimensions,
-  Component
+  Component,
+  TouchableHighlight
 } from 'react-native';
 const MK = require('react-native-material-kit');
 
@@ -39,7 +40,9 @@ class BoardCell extends Component {
     }
     return (
       <View style={localStyles}>
-        <Text style={styles.cellText}>{this.props.status}</Text>
+        <TouchableHighlight onPress={this.props.onPress} style={styles.cellClick}>
+          <Text style={styles.cellText}>{this.props.status}</Text>
+        </TouchableHighlight>
       </View>
     );
   }
@@ -61,7 +64,9 @@ export default class GameView extends Component {
       team
     })
   }
+  _boardClickHandler(column, row){
 
+  }
   render(){
     const game = 
     [
@@ -69,12 +74,13 @@ export default class GameView extends Component {
       ["X", "", "O"],
       ["X", "", "O"]
     ]
+    const _this = this;
     return (
       <View style={styles.container}>
         <Text>Game Name</Text>
         <MKTextField
           tintColor={MKColor.Lime}
-          textInputStyle={{color: MKColor.Orange}}
+          textInputStyle={{color: MKColor.Black}}
           placeholder="Game Name..."
           style={styles.textfield} />
         <JoinGameButton />
@@ -102,7 +108,8 @@ export default class GameView extends Component {
             {item.map((cell, rIndex) => 
               <BoardCell key={`cell-${rIndex}-${cIndex}`}
                       row={rIndex} column={cIndex}
-                      status={cell}/>
+                      status={cell}
+                      onPress={_this._boardClickHandler.bind(_this, cIndex, rIndex)} />
             )}
             </View>
           )}
@@ -150,6 +157,10 @@ const styles = StyleSheet.create({
     flex: .3,
     height: 125,
     borderColor: '#0000FF',
+  },
+  cellClick: {
+    height: 125,
+    flex: 1
   },
   leftCell: {
     borderLeftWidth: 2
