@@ -1,0 +1,70 @@
+2016-04-04T13:01:23.846511000 0.346643s notice: Recursively removing directory /Users/mbseid/Dev/horizon-talk/server/rethinkdb_data/tmp
+2016-04-04T13:01:23.854293000 0.354429s notice: OpenSSL 1.0.1i 6 Aug 2014
+2016-04-04T13:01:23.854818000 0.354949s notice: Initializing directory /Users/mbseid/Dev/horizon-talk/server/rethinkdb_data
+2016-04-04T13:01:23.855434000 0.355566s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/mbseid/Dev/horizon-talk/server/rethinkdb_data' did not already exist or is empty.)
+2016-04-04T13:01:23.855474000 0.355605s notice: Running rethinkdb 2.3.0-pre-horizon (CLANG 7.0.0 (clang-700.0.72))...
+2016-04-04T13:01:23.859529000 0.359661s notice: Running on Darwin 15.3.0 x86_64
+2016-04-04T13:01:23.859604000 0.359735s notice: Loading data from directory /Users/mbseid/Dev/horizon-talk/server/rethinkdb_data
+2016-04-04T13:01:23.918524000 0.418655s info: Automatically using cache size of 125 MB
+2016-04-04T13:01:23.920070000 0.420201s notice: Listening for intracluster connections on port 29015
+2016-04-04T13:01:23.921998000 0.422130s notice: Listening for client driver connections on port 28015
+2016-04-04T13:01:23.922162000 0.422293s notice: Listening for administrative HTTP connections on port 8080
+2016-04-04T13:01:23.922174000 0.422305s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-04-04T13:01:23.922178000 0.422309s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-04-04T13:01:23.922179000 0.422310s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-04-04T13:01:23.922182000 0.422313s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-04T13:01:23.922186000 0.422317s notice: Server ready, "Michaels_MacBook_Pro_local_j4s" 5e3fd55d-1117-442d-9641-64b526dcd7a6
+2016-04-04T13:02:23.926050000 60.424680s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
+2016-04-04T14:54:52.434299000 4746.299604s notice: Server got SIGINT from pid 1038, uid 501; shutting down...
+2016-04-04T14:54:52.434690000 4746.299995s notice: Shutting down client connections...
+2016-04-04T14:54:52.434957000 4746.300263s notice: All client connections closed.
+2016-04-04T14:54:52.434963000 4746.300268s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-04T14:54:52.435331000 4746.300636s notice: Storage engine shut down.
+2016-04-04T14:55:11.153116000 0.008577s notice: OpenSSL 1.0.1i 6 Aug 2014
+2016-04-04T14:55:11.153627000 0.009085s notice: Running rethinkdb 2.3.0-pre-horizon (CLANG 7.0.0 (clang-700.0.72))...
+2016-04-04T14:55:11.161730000 0.017189s notice: Running on Darwin 15.3.0 x86_64
+2016-04-04T14:55:11.161773000 0.017231s notice: Loading data from directory /Users/mbseid/Dev/horizon-talk/server/rethinkdb_data
+2016-04-04T14:55:11.179423000 0.034881s info: Automatically using cache size of 1086 MB
+2016-04-04T14:55:11.180414000 0.035872s notice: Listening for intracluster connections on port 29015
+2016-04-04T14:55:11.181551000 0.037009s notice: Listening for client driver connections on port 28015
+2016-04-04T14:55:11.181643000 0.037101s notice: Listening for administrative HTTP connections on port 8080
+2016-04-04T14:55:11.181645000 0.037103s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-04-04T14:55:11.181648000 0.037106s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-04-04T14:55:11.181649000 0.037114s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-04-04T14:55:11.181673000 0.037131s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-04T14:55:11.181677000 0.037134s notice: Server ready, "Michaels_MacBook_Pro_local_j4s" 5e3fd55d-1117-442d-9641-64b526dcd7a6
+2016-04-04T15:03:41.563171000 510.405959s info: Table f6b0effb-75ad-4dcc-98d6-1c2334b1bec2: Starting a new Raft election for term 1.
+2016-04-04T15:03:41.563604000 510.406392s info: Table f6b0effb-75ad-4dcc-98d6-1c2334b1bec2: Added replica on this server.
+2016-04-04T15:03:41.572922000 510.415710s info: Table f6b0effb-75ad-4dcc-98d6-1c2334b1bec2: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-04T15:03:42.157618000 511.000406s info: Table 80aa5c9e-e704-41ea-9689-414f2c073358: Starting a new Raft election for term 1.
+2016-04-04T15:03:42.157756000 511.000544s info: Table 80aa5c9e-e704-41ea-9689-414f2c073358: Added replica on this server.
+2016-04-04T15:03:42.166036000 511.008824s info: Table 80aa5c9e-e704-41ea-9689-414f2c073358: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-04T15:03:42.754030000 511.596818s info: Table f73e48e7-24a5-4474-b6e0-e718490eb479: Starting a new Raft election for term 1.
+2016-04-04T15:03:42.754189000 511.596977s info: Table f73e48e7-24a5-4474-b6e0-e718490eb479: Added replica on this server.
+2016-04-04T15:03:42.762457000 511.605245s info: Table f73e48e7-24a5-4474-b6e0-e718490eb479: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-04T15:08:11.232497000 780.068621s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
+2016-04-04T20:17:33.651657000 0.501437s notice: OpenSSL 1.0.1i 6 Aug 2014
+2016-04-04T20:17:33.652983000 0.502759s notice: Running rethinkdb 2.3.0-pre-horizon (CLANG 7.0.0 (clang-700.0.72))...
+2016-04-04T20:17:33.656505000 0.506274s notice: Running on Darwin 15.3.0 x86_64
+2016-04-04T20:17:33.656542000 0.506311s notice: Loading data from directory /Users/mbseid/Dev/horizon-talk/server/rethinkdb_data
+2016-04-04T20:17:33.679327000 0.529096s info: Automatically using cache size of 2046 MB
+2016-04-04T20:17:33.680207000 0.529976s notice: Listening for intracluster connections on port 29015
+2016-04-04T20:17:33.710778000 0.560548s notice: Listening for client driver connections on port 28015
+2016-04-04T20:17:33.710904000 0.560673s notice: Listening for administrative HTTP connections on port 8080
+2016-04-04T20:17:33.710942000 0.560711s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-04-04T20:17:33.710944000 0.560713s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-04-04T20:17:33.710945000 0.560714s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-04-04T20:17:33.710946000 0.560715s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-04-04T20:17:33.710947000 0.560716s notice: Server ready, "Michaels_MacBook_Pro_local_j4s" 5e3fd55d-1117-442d-9641-64b526dcd7a6
+2016-04-04T20:17:34.744508000 1.594277s info: Table f6b0effb-75ad-4dcc-98d6-1c2334b1bec2: Starting a new Raft election for term 2.
+2016-04-04T20:17:34.754872000 1.604641s info: Table f6b0effb-75ad-4dcc-98d6-1c2334b1bec2: This server is Raft leader for term 2. Latest log index is 3.
+2016-04-04T20:17:34.776993000 1.626762s info: Table f73e48e7-24a5-4474-b6e0-e718490eb479: Starting a new Raft election for term 2.
+2016-04-04T20:17:34.784980000 1.634749s info: Table f73e48e7-24a5-4474-b6e0-e718490eb479: This server is Raft leader for term 2. Latest log index is 3.
+2016-04-04T20:17:34.937447000 1.787216s info: Table 80aa5c9e-e704-41ea-9689-414f2c073358: Starting a new Raft election for term 2.
+2016-04-04T20:17:34.948913000 1.798682s info: Table 80aa5c9e-e704-41ea-9689-414f2c073358: This server is Raft leader for term 2. Latest log index is 3.
+2016-04-04T20:44:07.698959000 932.540196s info: Table 8890fe5a-09fb-4439-b0c3-9f0608364f70: Starting a new Raft election for term 1.
+2016-04-04T20:44:07.699130000 932.540367s info: Table 8890fe5a-09fb-4439-b0c3-9f0608364f70: Added replica on this server.
+2016-04-04T20:44:07.709779000 932.551016s info: Table 8890fe5a-09fb-4439-b0c3-9f0608364f70: This server is Raft leader for term 1. Latest log index is 0.
+2016-04-04T21:16:35.883406000 2880.675986s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
+2016-04-05T10:30:26.574835000 12601.024201s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
+2016-04-05T13:31:27.327598000 23461.508449s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.

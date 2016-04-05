@@ -82,7 +82,8 @@ export default class GameView extends Component {
           tintColor={MKColor.Lime}
           textInputStyle={{color: MKColor.Black}}
           placeholder="Game Name..."
-          style={styles.textfield} />
+          style={styles.textfield}
+          onTextChange={(gameName) => this.setState({gameName})}/>
         <JoinGameButton />
 
         <View style={styles.row}>

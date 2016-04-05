@@ -11,7 +11,7 @@ import React, {
   View
 } from 'react-native';
 
-import GameView from './views/GameView';
+import GameView from './views/GameView4';
 
 class ticktacktoe extends Component {
   render() {
