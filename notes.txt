@@ -1,7 +1,7 @@
 - [ ] npm install -g horizon
 - [ ] hz init ticktacktoe
 - [ ] hz server ticktacktoe --dev
-  - * This starts both Horizon and RethinkDB.
+  - * This starts both Horizon (and RethinkDB if you want).
   - * Make sure to have 2.3-preview installed
 
 - [ ] npm install -g react-native-cli

@@ -69,7 +69,8 @@ export default class GameView extends Component {
     this.radioGroup = new MKRadioButton.Group();
   }
   componentWillMount(){
-    this.horizon = Horizon({host: "127.0.0.1:8181"});
+    const host =  this.props.host || "127.0.0.1";
+    this.horizon = Horizon({host: host+":8181"});
     this.games = this.horizon("games");
   }
   _setTeam(team){
@@ -180,7 +181,7 @@ export default class GameView extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    marginTop: 100
+    marginTop: 0
   },
   textfield: {
     height: 28,  // have to do it on iOS

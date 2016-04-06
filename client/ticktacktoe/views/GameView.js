@@ -70,9 +70,9 @@ export default class GameView extends Component {
   render(){
     const game = 
     [
-      ["X", "", "O"],
-      ["X", "", "O"],
-      ["X", "", "O"]
+      ["X", "M", "5"],
+      ["X", "B", "O"],
+      ["X", "S", "O"]
     ]
     const _this = this;
     return (
@@ -126,8 +126,7 @@ export default class GameView extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    marginTop: 100
+    flex: 1
   },
   textfield: {
     height: 28,  // have to do it on iOS

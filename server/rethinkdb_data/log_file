@@ -68,3 +68,9 @@
 2016-04-04T21:16:35.883406000 2880.675986s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
 2016-04-05T10:30:26.574835000 12601.024201s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
 2016-04-05T13:31:27.327598000 23461.508449s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
+2016-04-05T20:08:51.231327000 40622.178999s warn: Data from a process on this server has been placed into swap memory. If the data is from RethinkDB, this may impact performance.
+2016-04-06T09:09:15.014403000 41980.429796s notice: Server got SIGINT from pid 6795, uid 501; shutting down...
+2016-04-06T09:09:15.014529000 41980.429920s notice: Shutting down client connections...
+2016-04-06T09:09:15.015557000 41980.430948s notice: All client connections closed.
+2016-04-06T09:09:15.015562000 41980.430953s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-04-06T09:09:15.043070000 41980.458462s notice: Storage engine shut down.

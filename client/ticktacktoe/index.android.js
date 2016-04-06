@@ -16,7 +16,7 @@ import GameView from './views/GameView4';
 class ticktacktoe extends Component {
   render() {
     return (
-      <GameView />
+      <GameView host="10.0.2.2" />
     );
   }
 }
